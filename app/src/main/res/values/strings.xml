@@ -1,3 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ITE2_Exam</string>
+    <string name="app_name">ViewsActivity_Tan</string>
+    <string name="full_name_label">fullname</string>
+    <string name="first_name_hint">First Name</string>
+    <string name="last_name_hint">Last Name</string>
+    <string name="home_address_label">Home Address</string>
+    <string name="house_number_hint">House #</string>
+    <string name="street_name_hint">Street Name</string>
+    <string name="subdivision_name_hint">Subdivision/Housing Name</string>
+    <string name="city_name_hint">City Name</string>
+    <string name="country_name_hint">Country Name</string>
+    <string name="notes_label">Notes</string>
+    <string name="notes_hint">Comments/Notes</string>
+    <string name="back_button">>> Back</string>
+    <string name="save_button">Save</string>
 </resources>

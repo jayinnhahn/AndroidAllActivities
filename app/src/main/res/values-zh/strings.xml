@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ViewsActivity_Tan</string>
+    <string name="first_name_hint">名字</string>
+    <string name="last_name_hint">姓</string>
+    <string name="full_name_label">全名</string>
+    <string name="home_address_label">家庭住址</string>
+    <string name="house_number_hint">门牌号</string>
+    <string name="street_name_hint">街道名称</string>
+    <string name="subdivision_name_hint">细分名称</string>
+    <string name="city_name_hint">城市名称</string>
+    <string name="country_name_hint">国家名称</string>
+    <string name="notes_label">笔记</string>
+    <string name="notes_hint">注释/注释</string>
+    <string name="back_button">>> 返回</string>
+    <string name="save_button">救</string>
+</resources>
