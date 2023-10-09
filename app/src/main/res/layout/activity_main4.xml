@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#A6A6A6"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:weightSum="5"
+    tools:context="MainActivity4">
+
+    <EditText
+        android:id="@+id/etQPI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="none"
+        android:text="QPI"
+        android:textSize="30sp"
+        tools:context="MainActivity4" />
+
+    <EditText
+        android:id="@+id/etEquation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        android:hint="Equation"
+        android:textSize="18sp"
+        tools:context="MainActivity4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnA"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="A"
+            android:textSize="25sp"
+            tools:context="MainActivity4" />
+
+        <Button
+            android:id="@+id/btnBP"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="B+"
+            android:textSize="25sp"
+            tools:context="MainActivity4" />
+
+        <Button
+            android:id="@+id/btnB"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="B"
+            android:textSize="25sp"
+            tools:context="MainActivity4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCP"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="C+"
+            android:textSize="25sp"
+            tools:context="MainActivity4" />
+
+        <Button
+            android:id="@+id/btnC"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="C"
+            android:textSize="25sp"
+            tools:context="MainActivity4" />
+
+        <Button
+            android:id="@+id/btnD"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="D"
+            android:textSize="25sp"
+            tools:context="MainActivity4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnF"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="F/FD"
+            android:textSize="25sp"
+            tools:context="MainActivity4" />
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#EF1909"
+            android:onClick="Clearbutton"
+            android:text="Clear"
+            android:textSize="25sp"
+            tools:context="MainActivity4" />
+
+        <Button
+            android:id="@+id/btnEq"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="myClicker"
+            android:text="="
+            android:textSize="25sp"
+            tools:context="MainActivity4" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnU3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#A6A6A6"
+            android:onClick="myClicker"
+            android:text="3"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            tools:context="MainActivity4" />
+
+        <Button
+            android:id="@+id/btnU5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#A6A6A6"
+            android:onClick="myClicker"
+            android:text="5"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            tools:context="MainActivity4" />
+
+        <Button
+            android:id="@+id/btnU9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#A6A6A6"
+            android:onClick="myClicker"
+            android:text="9"
+            android:textColor="#000000"
+            android:textSize="25sp"
+            tools:context="MainActivity4" />
+    </LinearLayout>
+</LinearLayout>
