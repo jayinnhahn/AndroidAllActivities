@@ -98,6 +98,7 @@
             android:layout_weight="1"
             android:text="D"
             android:textSize="25sp"
+
             tools:context="MainActivity4" />
     </LinearLayout>
 

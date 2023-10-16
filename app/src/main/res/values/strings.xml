@@ -14,4 +14,8 @@
     <string name="notes_hint">Comments/Notes</string>
     <string name="back_button">>> Back</string>
     <string name="save_button">Save</string>
+    <string name="title_activity_dashboard">dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

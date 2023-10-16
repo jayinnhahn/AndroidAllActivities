@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Input" />
+
+        <Button
+            android:id="@+id/buttonQPICalculator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="QPI" />
+
+        <Button
+            android:id="@+id/buttonActivity8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="'?'" />
+
+        <Button
+            android:id="@+id/buttonPrelims"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PRELIMS" />
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="jay.tan.ite2_exam.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="jay.tan.ite2_exam.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="jay.tan.ite2_exam.ui.notifications.NotificationsFragment"
+        android:label="@string/title_notifications"
+        tools:layout="@layout/fragment_notifications" />
+</navigation>
