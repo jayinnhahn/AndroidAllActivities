@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ViewsActivity_Tan</string>
+    <string name="first_name_hint">名前</string>
+    <string name="last_name_hint">名字</string>
+    <string name="full_name_label">フルネーム</string>
+    <string name="home_address_label">自宅住所</string>
+    <string name="house_number_hint">番地</string>
+    <string name="street_name_hint">通りの名前</string>
+    <string name="subdivision_name_hint">区画/住宅名</string>
+    <string name="city_name_hint">都市名</string>
+    <string name="country_name_hint">国名</string>
+    <string name="notes_label">筆記</string>
+    <string name="notes_hint">コメント/メモ</string>
+    <string name="back_button">>>戻る</string>
+    <string name="save_button">セーブ</string>
+</resources>

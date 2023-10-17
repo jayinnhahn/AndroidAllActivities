@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingTop="20dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/FullnameLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/full_name_label"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editFirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/first_name_hint"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/editTextLastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/last_name_hint"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:autofillHints="" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/HomeAddressLabel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/home_address_label"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/HouseNumeberInputField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".3"
+                    android:autofillHints=""
+                    android:ems="10"
+                    android:hint="@string/house_number_hint"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:textColorHint="#8D6E63"
+                    android:textStyle="italic"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <EditText
+                    android:id="@+id/StreetNameInputField"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7"
+                    android:ems="10"
+                    android:hint="@string/street_name_hint"
+                    android:inputType="text"
+                    android:textAlignment="center"
+                    android:textColorHint="#8D6E63"
+                    android:textStyle="italic"
+                    tools:ignore="TouchTargetSizeCheck"
+                    android:autofillHints="" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/SubdivisionHousingNameInputField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/subdivision_name_hint"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                tools:ignore="DuplicateSpeakableTextCheck"
+                android:autofillHints="" />
+
+            <EditText
+                android:id="@+id/SubdivisionInputField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autofillHints=""
+                android:ems="10"
+                android:hint="@string/city_name_hint"
+                android:inputType="text"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:textColorHint="#8D6E63" />
+
+            <EditText
+                android:id="@+id/CountryNameInputField"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/country_name_hint"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:textAlignment="center"
+                android:autofillHints="" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/NotesLabel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/notes_label"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/CommentsInputField"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="top"
+                android:hint="@string/notes_hint"
+                tools:ignore="NestedWeights"
+                android:autofillHints="" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".7" />
+
+                <Button
+                    android:id="@+id/BackButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight=".1"
+                    android:backgroundTint="#E4E4E4"
+                    android:paddingEnd="20dp"
+                    android:text="@string/back_button"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:cornerRadius="0dp"
+                    app:strokeColor="#000000"
+                    tools:ignore="RtlSymmetry" />
+
+                <Button
+                    android:id="@+id/SaveButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight=".2"
+                    android:backgroundTint="#DAF4BB"
+                    android:text="@string/save_button"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    app:cornerRadius="0dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

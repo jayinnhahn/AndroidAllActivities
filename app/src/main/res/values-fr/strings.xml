@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ViewsActivity_Tan</string>
+    <string name="first_name_hint">Prénom</string>
+    <string name="last_name_hint">Nom</string>
+    <string name="full_name_label">Nom complet</string>
+    <string name="home_address_label">Adresse du domicile</string>
+    <string name="house_number_hint">Numéro de maison</string>
+    <string name="street_name_hint">Nom de la rue</string>
+    <string name="subdivision_name_hint">Nom du lotissement ou du logement</string>
+    <string name="city_name_hint">Nom de la ville</string>
+    <string name="country_name_hint">Nom du pays</string>
+    <string name="notes_label">Notes</string>
+    <string name="notes_hint">Commentaires/Notes</string>
+    <string name="back_button">>> Retour</string>
+    <string name="save_button">Sauvegarder</string>
+</resources>
